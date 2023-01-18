@@ -25,7 +25,7 @@ h3 {
 }
 
 .header-menu {
-    background-color: goldenrod;
+    background-color: #C6D7CF;
     display: flex;
     position: fixed;
     width: 100%;
@@ -62,7 +62,7 @@ h3 {
 
 .principal {
     display: flex;
-    background-color: lightgoldenrodyellow;
+    background-color: #F8F8FF;
     height: 100vh;
     padding-top: 60px;
     justify-content: center;
@@ -86,7 +86,7 @@ h3 {
 
 .principal-2 {
     display: flex;
-    background-color: #D9D1C7;
+    background-color: #e4e4e48e;
     height: 100vh;
     width: 100%;
 }
@@ -127,11 +127,11 @@ th, td {
     padding: 3px;
 }
 
-tr:nth-child(even) {background-color: palegoldenrod;}
+tr:nth-child(even) {background-color: #C6D7CF;}
 
 .principal3 {
     display: flex;
-    background-color: lightgoldenrodyellow;
+    background-color: #F8F8FF;
     width: 100%;
     height: 100vh;  
 
@@ -190,9 +190,11 @@ tr:nth-child(even) {background-color: palegoldenrod;}
 
 .principal-4 {
     display: flex;
-    background-color: #D9D1C7;
+    background-color: #e4e4e48e;
     height: 100vh;
     width: 100%;
+    justify-content: center;
+    
 }
 
 .subcontainer-principal4 {
@@ -206,11 +208,12 @@ tr:nth-child(even) {background-color: palegoldenrod;}
 .formulario{
     width: 400px;
     padding: 30px;
-    border:1px solid #ccc;
+    border:3px solid #ccc;
+    
 }
 .formulario p{
     width: 100%;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 .field{
     width: 100%;
