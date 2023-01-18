@@ -20,6 +20,7 @@ h3 {
     color: olive;
     text-align: start;
     padding: 32px;
+    font-size: x-large;
 
 }
 
@@ -83,27 +84,11 @@ h3 {
 
 }
 
-.tabela-linguagem {
-    border: 4px ridge;
-    padding: 15px;  
-       
-}
-
-th, td {
-    text-align: center;
-    padding: 3px;
-}
-
-tr:nth-child(even) {background-color: palegoldenrod;}
-
-
 .principal-2 {
     display: flex;
     background-color: #D9D1C7;
     height: 100vh;
     width: 100%;
-
-
 }
 
 .subcontainer-principal2 {
@@ -122,6 +107,7 @@ tr:nth-child(even) {background-color: palegoldenrod;}
 .lista-item {
     padding: 32px;
     text-align: justify;
+    columns: 100px 3;
 
 }
 
@@ -130,12 +116,68 @@ tr:nth-child(even) {background-color: palegoldenrod;}
 
 }
 
+.tabela-infos {
+    border: 4px ridge;
+    padding: 15px;  
+       
+}
+
+th, td {
+    text-align: center;
+    padding: 3px;
+}
+
+tr:nth-child(even) {background-color: palegoldenrod;}
+
 .principal3 {
     display: flex;
     background-color: lightgoldenrodyellow;
     width: 100%;
     height: 100vh;  
 
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+  }
+
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+   
+.card p {
+    color: #a3a5ae;
+    font-size: 16px;
+}
+   
+.image {
+    float: right;
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.blue {
+    border-left: 3px solid #4895ff;
+}
+   
+.green {
+    border-left: 3px solid #3bb54a;
+}
+   
+.red {
+    border-left: 3px solid #b3404a;
 }
 
 .subcontainer-principal3 {
@@ -146,48 +188,70 @@ tr:nth-child(even) {background-color: palegoldenrod;}
 
 }
 
-.subcontainer-principal3 li>a {
-    font-size: 18px;
-    text-decoration: inherit;
-   
-}
-
-.footer {
+.principal-4 {
+    display: flex;
     background-color: #D9D1C7;
-    display: flex;
-    align-items: center;
-    height: 30vh;
-    justify-content: center;
-
-}
-
-.div-contato {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 960px;
-    padding-left: 10px;
-    padding-right: 10px;
+    height: 100vh;
     width: 100%;
-   
 }
 
-.lista-footer li{
-    color: darkgoldenrod;
-    font-weight: 700;
-    font-size: 18px;
-    margin-bottom: 16px;
+.subcontainer-principal4 {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
 
 }
 
-.estilo-icon {
-    font-size: 22px;
-    margin-right: 10px;
 
+.formulario{
+    width: 400px;
+    padding: 30px;
+    border:1px solid #ccc;
+}
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+}
+.field{
+    width: 100%;
+    margin: 15px 0;
+}
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
 }
 
-.links {
-    color: darkgoldenrod;
-    text-decoration: none;
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
 }
+
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
