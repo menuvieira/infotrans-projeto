@@ -129,7 +129,7 @@ th, td {
 
 tr:nth-child(even) {background-color: #C6D7CF;}
 
-.principal3 {
+.principal-3 {
     display: flex;
     background-color: #F8F8FF;
     width: 100%;
